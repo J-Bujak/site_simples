@@ -1,0 +1,29 @@
+
+
+
+html,
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+#site {
+    height: 100%;
+}
+
+header{
+    
+    height: 15%;
+    background-color: #303030;
+}
+
+main {
+    
+    height: 70%;
+}
+
+footer {
+    
+    height: 15%;
+    background-color: #303030;
+}
