@@ -1,0 +1,6 @@
+# EXEMPLO DE SITE SIMPLES
+
+## Tecnologias
+
+- HTML
+- CSS
