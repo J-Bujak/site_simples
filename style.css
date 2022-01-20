@@ -12,9 +12,15 @@ body{
 }
 
 header{
-    
+    display: flex;
     height: 15%;
     background-color: #303030;
+    align-items: center;
+}
+
+section{
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
 main {
@@ -23,7 +29,33 @@ main {
 }
 
 footer {
-    
+    display:flex;
+    flex-direction: column;
     height: 15%;
     background-color: #303030;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.btn {
+    align-self: center;
+    border-radius: 20px;
+    padding: 6px 15px 10px 15px;
+    background: #303030;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
 }
