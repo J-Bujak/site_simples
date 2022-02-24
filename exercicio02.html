@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <input onkeyup="calcular()" type="text" name="" id="numero_01"><br>
+    <input onkeyup="calcular()" type="text" name="" id="numero_02"><br>
+    <input onkeyup="calcular()" type="text" name="" id="numero_03"><br>
+
+    <div id="div_resultado">
+        Resultado... 
+    </div>
+
+  
+    
+</body>
+</html>
+
+<script>
+    function calcular(){
+        console.log("Calculando...")
+        const input_01 = document.getElementById("numero_01")
+        const input_01_value = input_01.value
+
+        const input_02 = document.getElementById("numero_02")
+        const input_02_value = input_02.value 
+
+        const input_03 = document.getElementById("numero_03")
+        const input_03_value = input_03.value
+
+        const resultado = Number(input_01_value) + Number(input_02_value) + Number(input_03_value)
+        console.log(resultado)
+
+        const divResultado = document.getElementById("div_resultado")
+        divResultado.innerHTML = resultado
+        
+
+        
+    }
+
+
+</script>
+</html>
